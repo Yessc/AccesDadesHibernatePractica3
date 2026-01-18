@@ -1,0 +1,18 @@
+# Driver JDBC para SQLite
+hibernate.connection.driver_class=org.sqlite.JDBC
+
+# URL de conexión a SQLite (archivo en la carpeta data)
+hibernate.connection.url=jdbc:sqlite:./data/database-pr23.db
+
+# No hay usuario ni contraseña en SQLite
+hibernate.connection.username=
+hibernate.connection.password=
+
+# Dialecto de Hibernate para SQLite
+hibernate.dialect=org.hibernate.community.dialect.SQLiteDialect
+
+# Mostrar consultas SQL
+hibernate.show_sql=true
+
+# Estrategia de generación de esquema
+hibernate.hbm2ddl.auto=update

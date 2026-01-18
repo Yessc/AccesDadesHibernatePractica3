@@ -1,0 +1,18 @@
+# Driver JDBC para MySQL
+hibernate.connection.driver_class=com.mysql.cj.jdbc.Driver
+
+# URL de conexión a MySQL
+hibernate.connection.url=jdbc:mysql://localhost:3306/database-pr23db?serverTimezone=UTC
+
+# Usuario (sin contraseña)
+hibernate.connection.username=root
+hibernate.connection.password=
+
+# Dialecto de Hibernate para MySQL
+hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
+
+# Mostrar consultas SQL
+hibernate.show_sql=true
+
+# Estrategia de generación de esquema
+hibernate.hbm2ddl.auto=update
